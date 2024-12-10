@@ -1,0 +1,54 @@
+/* parte a la que se le va aplicar el cambio */
+body{ 
+    /* paleta de colores y nombres: https://color.adobe.com/es/search?q=Happy&t=term */
+    /* combinaciones de colores: https://cssgradient.io/ */
+    /* tipos de letras: https://fonts.google.com/ */
+    background: rgb(175,184,185);
+    background: linear-gradient(0deg, rgba(175,184,185,1) 11%, rgba(236,234,229,1) 100%);
+font-family: "Playfair Display", serif;
+}
+/* para editar todas las imagenes 
+ img { 
+   /*alto height: 540px; */
+   /*ancho  width: 400px;*/
+   /* borde de imagenes: border-radius: 20px;
+}  */
+  /*para fotos de manera individual usando class siempre se inicia con un punto "."*/
+  .jinportada{
+    height: 540px;
+    border-radius: 10px;
+    align-items: center;
+
+  }
+  .jinmorado{
+    height: 300px;
+    width: 300px;
+    
+  }
+  .jinAlbum{
+    height: 500px;
+    width: 500px;
+    border-radius: 250px;
+  }
+  .RedesSociales{
+    background-image: url(https://h7.alamy.com/compit/2f9wm13/social-media-progettazione-di-background-di-social-network-2f9wm13.jpg);
+    background-blend-mode: multiply;
+    font-size: 20px;
+}
+.Menu{
+    background-color:rgb(159, 156, 156);
+    font-size: 20px;
+}
+.Encabezado{
+    color:rgb(113, 21, 21);
+    text-align: center;
+}
+.Pasatiempo{
+    text-align: center;
+}
+.NuevoAlbum{
+    text-align: center;
+}
+.Biografia{
+    text-align: justify;
+}
